@@ -8,6 +8,8 @@
     >
       <div>6666</div>
     </transition>
+
+    <hr>
   </div>
 </template>
 
