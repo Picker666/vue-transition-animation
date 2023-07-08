@@ -2,6 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <SingleComponent />
+    <InitialTransition />
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -9,12 +10,14 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue';
 import SingleComponent from './components/SingleComponent.vue';
+import InitialTransition from './components/InitialTransition.vue';
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    SingleComponent
+    SingleComponent,
+    InitialTransition
   }
 }
 </script>
